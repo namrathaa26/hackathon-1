@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class SolarSystem {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter panel ID: ");
+        int panelId = sc.nextInt();
+
+        System.out.println("Enter Energy generated: ");
+        double energyGenerated = sc.nextDouble();
+
+        System.out.println("Enter Number of solar panels: ");
+        int numberOfPanels = sc.nextInt();
+
+        System.out.println("Enter System status: ");
+        char systemStatus = sc.next().charAt(0);
+
+        System.out.println(" Rooftop Solar System Details ");
+        System.out.println("Panel ID: " + panelId);
+        System.out.println("Energy Generated: " + energyGenerated + " kWh");
+        System.out.println("Number of Solar Panels: " + numberOfPanels);
+        System.out.println("System Status: " + systemStatus);
+
+        
+    }
+}
